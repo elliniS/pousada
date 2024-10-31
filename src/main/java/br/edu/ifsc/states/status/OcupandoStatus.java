@@ -5,7 +5,7 @@ import br.edu.ifsc.models.Reserva;
 public class OcupandoStatus extends Status{
     public OcupandoStatus(Reserva reserva) {
         super(reserva);
-        this.nome = "ocupado";
+        this.nome = "Ocupando";
     }
 
     @Override

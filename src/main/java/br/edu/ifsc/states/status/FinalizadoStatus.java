@@ -10,11 +10,11 @@ public class FinalizadoStatus extends Status {
 
     @Override
     public void proximo() {
-        System.out.println("Esta reserva já foi finalizada");
+        System.out.println("Esta reserva já foi finalizada.");
     }
 
     @Override
     public void cancela() {
-        System.out.println("Não é possivel cancelar uma reserva finalizada");
+        System.out.println("Não é possivel cancelar uma reserva finalizada.");
     }
 }

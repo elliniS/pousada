@@ -10,7 +10,7 @@ public class CanceladoStatus extends Status {
 
     @Override
     public void proximo() {
-        System.out.println("Esta reseva foi cancelada");
+        System.out.println("Esta reseva foi cancelada.");
     }
 
     @Override
